@@ -1,0 +1,23 @@
+@media (max-width: 769px) {
+  .container .flex .card1,
+  .container .flex .card2 {
+    width: 350px;
+  }
+}
+@media (max-width: 425px) {
+  .header .logoFlex img {
+    width: 30%;
+  }
+
+  .container .flex {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+  }
+
+  .container .flex .card1,
+  .container .flex .card2 {
+    width: 350px;
+  }
+}
