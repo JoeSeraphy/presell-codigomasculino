@@ -1,7 +1,14 @@
 @media (max-width: 769px) {
+  body {
+    background-color: black;
+  }
+  .container {
+    background: url("/assets/backgroundrafa-mobile.jpg") no-repeat;
+  }
+
   .container .flex .card1,
   .container .flex .card2 {
-    width: 350px;
+    width: 340px;
   }
 }
 @media (max-width: 425px) {
